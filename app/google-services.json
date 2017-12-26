@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "988434133580",
+    "firebase_url": "https://samplefcmtest-77b64.firebaseio.com",
+    "project_id": "samplefcmtest-77b64",
+    "storage_bucket": "samplefcmtest-77b64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988434133580:android:343499f808826359",
+        "android_client_info": {
+          "package_name": "nova.samplefcmtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988434133580-012olbjn4hao63sumf23lt5bh6b0m8sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEwtMsy5eU8DOdzf7QMX_l5hWNTL3rjEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
