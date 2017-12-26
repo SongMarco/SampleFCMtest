@@ -15,6 +15,12 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 
 
+
+/*
+본 코드는 FCM 알림을 테스트해보기 위한 코드다.
+
+ */
+
 public class MainActivity extends AppCompatActivity {
     String token;
     @Override
@@ -24,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         FirebaseMessaging.getInstance().subscribeToTopic("news");
-         token = FirebaseInstanceId.getInstance().getToken() ;
+        token = FirebaseInstanceId.getInstance().getToken() ;
 
 
          SendTask sendTask = new SendTask();
@@ -33,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public class SendTask extends AsyncTask<Void, String, String> {
-
-
 
         @Override
         protected String doInBackground(Void... voids) {
